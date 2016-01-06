@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewController">
+            <connections>
+                <outlet property="pagecontrol" destination="yKy-ab-Xhp" id="9aM-jh-E7l"/>
+                <outlet property="scrollView" destination="OUG-7Q-kw7" id="jgU-Vn-2sx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OUG-7Q-kw7">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="yKy-ab-Xhp">
+                    <rect key="frame" x="141" y="435" width="39" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OUG-7Q-kw7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IQe-ki-CNe"/>
+                <constraint firstAttribute="bottom" secondItem="yKy-ab-Xhp" secondAttribute="bottom" constant="8" id="JOV-iQ-gkz"/>
+                <constraint firstAttribute="centerX" secondItem="yKy-ab-Xhp" secondAttribute="centerX" id="RiW-w4-AZc"/>
+                <constraint firstAttribute="bottom" secondItem="OUG-7Q-kw7" secondAttribute="bottom" id="X5c-av-Ecl"/>
+                <constraint firstItem="OUG-7Q-kw7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jsV-T0-i5Y"/>
+                <constraint firstAttribute="trailing" secondItem="OUG-7Q-kw7" secondAttribute="trailing" id="t8P-bc-0fa"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
