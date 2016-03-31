@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DEDC5C1B6235A4009405E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC5B1B6235A4009405E6 /* Foundation.framework */; };
+		04DEDC5E1B6235A4009405E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC5D1B6235A4009405E6 /* CoreGraphics.framework */; };
+		04DEDC601B6235A4009405E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC5F1B6235A4009405E6 /* UIKit.framework */; };
+		04DEDC661B6235A4009405E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC641B6235A4009405E6 /* InfoPlist.strings */; };
+		04DEDC681B6235A4009405E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEDC671B6235A4009405E6 /* main.m */; };
+		04DEDC6C1B6235A4009405E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEDC6B1B6235A4009405E6 /* AppDelegate.m */; };
+		04DEDC6E1B6235A4009405E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC6D1B6235A4009405E6 /* Images.xcassets */; };
+		04DEDC751B6235A4009405E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC741B6235A4009405E6 /* XCTest.framework */; };
+		04DEDC761B6235A4009405E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC5B1B6235A4009405E6 /* Foundation.framework */; };
+		04DEDC771B6235A4009405E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEDC5F1B6235A4009405E6 /* UIKit.framework */; };
+		04DEDC7F1B6235A4009405E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC7D1B6235A4009405E6 /* InfoPlist.strings */; };
+		04DEDC811B6235A4009405E6 /* CarScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEDC801B6235A4009405E6 /* CarScrollViewTests.m */; };
+		04DEDC931B6235CD009405E6 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC8B1B6235CD009405E6 /* 0.png */; };
+		04DEDC941B6235CD009405E6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC8C1B6235CD009405E6 /* 1.png */; };
+		04DEDC951B6235CD009405E6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC8D1B6235CD009405E6 /* 2.png */; };
+		04DEDC961B6235CD009405E6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC8E1B6235CD009405E6 /* 3.png */; };
+		04DEDC971B6235CD009405E6 /* 9-222.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC8F1B6235CD009405E6 /* 9-222.png */; };
+		04DEDC981B6235CD009405E6 /* btn_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC901B6235CD009405E6 /* btn_home.png */; };
+		04DEDC991B6235CD009405E6 /* btn_nextpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC911B6235CD009405E6 /* btn_nextpage.png */; };
+		04DEDC9A1B6235CD009405E6 /* btn_prepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DEDC921B6235CD009405E6 /* btn_prepage.png */; };
+		04DEDC9D1B62366B009405E6 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEDC9C1B62366B009405E6 /* CarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DEDC781B6235A4009405E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DEDC501B6235A4009405E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DEDC571B6235A4009405E6;
+			remoteInfo = CarScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DEDC581B6235A4009405E6 /* CarScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEDC5B1B6235A4009405E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04DEDC5D1B6235A4009405E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04DEDC5F1B6235A4009405E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04DEDC631B6235A4009405E6 /* CarScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarScrollView-Info.plist"; sourceTree = "<group>"; };
+		04DEDC651B6235A4009405E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04DEDC671B6235A4009405E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DEDC691B6235A4009405E6 /* CarScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		04DEDC6A1B6235A4009405E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DEDC6B1B6235A4009405E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DEDC6D1B6235A4009405E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DEDC731B6235A4009405E6 /* CarScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DEDC741B6235A4009405E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04DEDC7C1B6235A4009405E6 /* CarScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		04DEDC7E1B6235A4009405E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04DEDC801B6235A4009405E6 /* CarScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarScrollViewTests.m; sourceTree = "<group>"; };
+		04DEDC8B1B6235CD009405E6 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		04DEDC8C1B6235CD009405E6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04DEDC8D1B6235CD009405E6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		04DEDC8E1B6235CD009405E6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		04DEDC8F1B6235CD009405E6 /* 9-222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9-222.png"; sourceTree = "<group>"; };
+		04DEDC901B6235CD009405E6 /* btn_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_home.png; sourceTree = "<group>"; };
+		04DEDC911B6235CD009405E6 /* btn_nextpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_nextpage.png; sourceTree = "<group>"; };
+		04DEDC921B6235CD009405E6 /* btn_prepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_prepage.png; sourceTree = "<group>"; };
+		04DEDC9B1B62366B009405E6 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		04DEDC9C1B62366B009405E6 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DEDC551B6235A4009405E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC5E1B6235A4009405E6 /* CoreGraphics.framework in Frameworks */,
+				04DEDC601B6235A4009405E6 /* UIKit.framework in Frameworks */,
+				04DEDC5C1B6235A4009405E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEDC701B6235A4009405E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC751B6235A4009405E6 /* XCTest.framework in Frameworks */,
+				04DEDC771B6235A4009405E6 /* UIKit.framework in Frameworks */,
+				04DEDC761B6235A4009405E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DEDC4F1B6235A4009405E6 = {
+			isa = PBXGroup;
+			children = (
+				04DEDC611B6235A4009405E6 /* CarScrollView */,
+				04DEDC7A1B6235A4009405E6 /* CarScrollViewTests */,
+				04DEDC5A1B6235A4009405E6 /* Frameworks */,
+				04DEDC591B6235A4009405E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DEDC591B6235A4009405E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC581B6235A4009405E6 /* CarScrollView.app */,
+				04DEDC731B6235A4009405E6 /* CarScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DEDC5A1B6235A4009405E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC5B1B6235A4009405E6 /* Foundation.framework */,
+				04DEDC5D1B6235A4009405E6 /* CoreGraphics.framework */,
+				04DEDC5F1B6235A4009405E6 /* UIKit.framework */,
+				04DEDC741B6235A4009405E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04DEDC611B6235A4009405E6 /* CarScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC8A1B6235CD009405E6 /* 第09天作业图片 */,
+				04DEDC6A1B6235A4009405E6 /* AppDelegate.h */,
+				04DEDC6B1B6235A4009405E6 /* AppDelegate.m */,
+				04DEDC6D1B6235A4009405E6 /* Images.xcassets */,
+				04DEDC621B6235A4009405E6 /* Supporting Files */,
+				04DEDC9B1B62366B009405E6 /* CarViewController.h */,
+				04DEDC9C1B62366B009405E6 /* CarViewController.m */,
+			);
+			path = CarScrollView;
+			sourceTree = "<group>";
+		};
+		04DEDC621B6235A4009405E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC631B6235A4009405E6 /* CarScrollView-Info.plist */,
+				04DEDC641B6235A4009405E6 /* InfoPlist.strings */,
+				04DEDC671B6235A4009405E6 /* main.m */,
+				04DEDC691B6235A4009405E6 /* CarScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DEDC7A1B6235A4009405E6 /* CarScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC801B6235A4009405E6 /* CarScrollViewTests.m */,
+				04DEDC7B1B6235A4009405E6 /* Supporting Files */,
+			);
+			path = CarScrollViewTests;
+			sourceTree = "<group>";
+		};
+		04DEDC7B1B6235A4009405E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC7C1B6235A4009405E6 /* CarScrollViewTests-Info.plist */,
+				04DEDC7D1B6235A4009405E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DEDC8A1B6235CD009405E6 /* 第09天作业图片 */ = {
+			isa = PBXGroup;
+			children = (
+				04DEDC8B1B6235CD009405E6 /* 0.png */,
+				04DEDC8C1B6235CD009405E6 /* 1.png */,
+				04DEDC8D1B6235CD009405E6 /* 2.png */,
+				04DEDC8E1B6235CD009405E6 /* 3.png */,
+				04DEDC8F1B6235CD009405E6 /* 9-222.png */,
+				04DEDC901B6235CD009405E6 /* btn_home.png */,
+				04DEDC911B6235CD009405E6 /* btn_nextpage.png */,
+				04DEDC921B6235CD009405E6 /* btn_prepage.png */,
+			);
+			path = "第09天作业图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DEDC571B6235A4009405E6 /* CarScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEDC841B6235A4009405E6 /* Build configuration list for PBXNativeTarget "CarScrollView" */;
+			buildPhases = (
+				04DEDC541B6235A4009405E6 /* Sources */,
+				04DEDC551B6235A4009405E6 /* Frameworks */,
+				04DEDC561B6235A4009405E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarScrollView;
+			productName = CarScrollView;
+			productReference = 04DEDC581B6235A4009405E6 /* CarScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DEDC721B6235A4009405E6 /* CarScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DEDC871B6235A4009405E6 /* Build configuration list for PBXNativeTarget "CarScrollViewTests" */;
+			buildPhases = (
+				04DEDC6F1B6235A4009405E6 /* Sources */,
+				04DEDC701B6235A4009405E6 /* Frameworks */,
+				04DEDC711B6235A4009405E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DEDC791B6235A4009405E6 /* PBXTargetDependency */,
+			);
+			name = CarScrollViewTests;
+			productName = CarScrollViewTests;
+			productReference = 04DEDC731B6235A4009405E6 /* CarScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DEDC501B6235A4009405E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qf;
+				TargetAttributes = {
+					04DEDC721B6235A4009405E6 = {
+						TestTargetID = 04DEDC571B6235A4009405E6;
+					};
+				};
+			};
+			buildConfigurationList = 04DEDC531B6235A4009405E6 /* Build configuration list for PBXProject "CarScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04DEDC4F1B6235A4009405E6;
+			productRefGroup = 04DEDC591B6235A4009405E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DEDC571B6235A4009405E6 /* CarScrollView */,
+				04DEDC721B6235A4009405E6 /* CarScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DEDC561B6235A4009405E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC931B6235CD009405E6 /* 0.png in Resources */,
+				04DEDC941B6235CD009405E6 /* 1.png in Resources */,
+				04DEDC991B6235CD009405E6 /* btn_nextpage.png in Resources */,
+				04DEDC9A1B6235CD009405E6 /* btn_prepage.png in Resources */,
+				04DEDC951B6235CD009405E6 /* 2.png in Resources */,
+				04DEDC981B6235CD009405E6 /* btn_home.png in Resources */,
+				04DEDC971B6235CD009405E6 /* 9-222.png in Resources */,
+				04DEDC961B6235CD009405E6 /* 3.png in Resources */,
+				04DEDC661B6235A4009405E6 /* InfoPlist.strings in Resources */,
+				04DEDC6E1B6235A4009405E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEDC711B6235A4009405E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC7F1B6235A4009405E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DEDC541B6235A4009405E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC6C1B6235A4009405E6 /* AppDelegate.m in Sources */,
+				04DEDC9D1B62366B009405E6 /* CarViewController.m in Sources */,
+				04DEDC681B6235A4009405E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DEDC6F1B6235A4009405E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DEDC811B6235A4009405E6 /* CarScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DEDC791B6235A4009405E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DEDC571B6235A4009405E6 /* CarScrollView */;
+			targetProxy = 04DEDC781B6235A4009405E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DEDC641B6235A4009405E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEDC651B6235A4009405E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04DEDC7D1B6235A4009405E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DEDC7E1B6235A4009405E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DEDC821B6235A4009405E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DEDC831B6235A4009405E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DEDC851B6235A4009405E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarScrollView/CarScrollView-Prefix.pch";
+				INFOPLIST_FILE = "CarScrollView/CarScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04DEDC861B6235A4009405E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarScrollView/CarScrollView-Prefix.pch";
+				INFOPLIST_FILE = "CarScrollView/CarScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04DEDC881B6235A4009405E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarScrollView.app/CarScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarScrollView/CarScrollView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CarScrollViewTests/CarScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04DEDC891B6235A4009405E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarScrollView.app/CarScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarScrollView/CarScrollView-Prefix.pch";
+				INFOPLIST_FILE = "CarScrollViewTests/CarScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DEDC531B6235A4009405E6 /* Build configuration list for PBXProject "CarScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEDC821B6235A4009405E6 /* Debug */,
+				04DEDC831B6235A4009405E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DEDC841B6235A4009405E6 /* Build configuration list for PBXNativeTarget "CarScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEDC851B6235A4009405E6 /* Debug */,
+				04DEDC861B6235A4009405E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DEDC871B6235A4009405E6 /* Build configuration list for PBXNativeTarget "CarScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DEDC881B6235A4009405E6 /* Debug */,
+				04DEDC891B6235A4009405E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DEDC501B6235A4009405E6 /* Project object */;
+}
