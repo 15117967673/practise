@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F29A2ED1B07047B00555061 /* Mole04.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F29A2EC1B07047B00555061 /* Mole04.png */; };
+		3F8646281B05D1AB00FA6C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8646271B05D1AB00FA6C08 /* Foundation.framework */; };
+		3F86462A1B05D1AB00FA6C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8646291B05D1AB00FA6C08 /* CoreGraphics.framework */; };
+		3F86462C1B05D1AB00FA6C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F86462B1B05D1AB00FA6C08 /* UIKit.framework */; };
+		3F8646321B05D1AB00FA6C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646301B05D1AB00FA6C08 /* InfoPlist.strings */; };
+		3F8646341B05D1AB00FA6C08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8646331B05D1AB00FA6C08 /* main.m */; };
+		3F8646381B05D1AB00FA6C08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8646371B05D1AB00FA6C08 /* AppDelegate.m */; };
+		3F86463A1B05D1AB00FA6C08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646391B05D1AB00FA6C08 /* Images.xcassets */; };
+		3F8646411B05D1AB00FA6C08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8646401B05D1AB00FA6C08 /* XCTest.framework */; };
+		3F8646421B05D1AB00FA6C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8646271B05D1AB00FA6C08 /* Foundation.framework */; };
+		3F8646431B05D1AB00FA6C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F86462B1B05D1AB00FA6C08 /* UIKit.framework */; };
+		3F86464B1B05D1AB00FA6C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646491B05D1AB00FA6C08 /* InfoPlist.strings */; };
+		3F86464D1B05D1AB00FA6C08 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86464C1B05D1AB00FA6C08 /* ______Tests.m */; };
+		3F86471B1B05D4BD00FA6C08 /* 001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B41B05D4BD00FA6C08 /* 001@2x.png */; };
+		3F86471C1B05D4BD00FA6C08 /* 002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B51B05D4BD00FA6C08 /* 002@2x.png */; };
+		3F86471D1B05D4BD00FA6C08 /* 003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B61B05D4BD00FA6C08 /* 003@2x.png */; };
+		3F86471E1B05D4BD00FA6C08 /* 004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B71B05D4BD00FA6C08 /* 004@2x.png */; };
+		3F86471F1B05D4BD00FA6C08 /* 005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B81B05D4BD00FA6C08 /* 005@2x.png */; };
+		3F8647201B05D4BD00FA6C08 /* 006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646B91B05D4BD00FA6C08 /* 006@2x.png */; };
+		3F8647211B05D4BD00FA6C08 /* 007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BA1B05D4BD00FA6C08 /* 007@2x.png */; };
+		3F8647221B05D4BD00FA6C08 /* 008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BB1B05D4BD00FA6C08 /* 008@2x.png */; };
+		3F8647231B05D4BD00FA6C08 /* 009@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BC1B05D4BD00FA6C08 /* 009@2x.png */; };
+		3F8647241B05D4BD00FA6C08 /* 010@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BD1B05D4BD00FA6C08 /* 010@2x.png */; };
+		3F8647251B05D4BD00FA6C08 /* 011@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BE1B05D4BD00FA6C08 /* 011@2x.png */; };
+		3F8647261B05D4BD00FA6C08 /* 012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646BF1B05D4BD00FA6C08 /* 012@2x.png */; };
+		3F8647271B05D4BD00FA6C08 /* 013@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646C01B05D4BD00FA6C08 /* 013@2x.png */; };
+		3F8647281B05D4BD00FA6C08 /* 014@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646C11B05D4BD00FA6C08 /* 014@2x.png */; };
+		3F8647291B05D4BD00FA6C08 /* 015@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646C21B05D4BD00FA6C08 /* 015@2x.png */; };
+		3F86472A1B05D4BD00FA6C08 /* 016@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8646C31B05D4BD00FA6C08 /* 016@2x.png */; };
+		3F8647831B05D69200FA6C08 /* btn_tag_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8647821B05D69200FA6C08 /* btn_tag_delete.png */; };
+		3F8647851B06004C00FA6C08 /* Mole02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8647841B06004C00FA6C08 /* Mole02.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8646441B05D1AB00FA6C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F86461C1B05D1AB00FA6C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8646231B05D1AB00FA6C08;
+			remoteInfo = "抖动界面删除";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F29A2EC1B07047B00555061 /* Mole04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole04.png; sourceTree = "<group>"; };
+		3F8646241B05D1AB00FA6C08 /* 抖动界面删除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抖动界面删除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8646271B05D1AB00FA6C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F8646291B05D1AB00FA6C08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F86462B1B05D1AB00FA6C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F86462F1B05D1AB00FA6C08 /* 抖动界面删除-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "抖动界面删除-Info.plist"; sourceTree = "<group>"; };
+		3F8646311B05D1AB00FA6C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F8646331B05D1AB00FA6C08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8646351B05D1AB00FA6C08 /* 抖动界面删除-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "抖动界面删除-Prefix.pch"; sourceTree = "<group>"; };
+		3F8646361B05D1AB00FA6C08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8646371B05D1AB00FA6C08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8646391B05D1AB00FA6C08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F86463F1B05D1AB00FA6C08 /* 抖动界面删除Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抖动界面删除Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8646401B05D1AB00FA6C08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F8646481B05D1AB00FA6C08 /* 抖动界面删除Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "抖动界面删除Tests-Info.plist"; sourceTree = "<group>"; };
+		3F86464A1B05D1AB00FA6C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F86464C1B05D1AB00FA6C08 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		3F8646B41B05D4BD00FA6C08 /* 001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001@2x.png"; sourceTree = "<group>"; };
+		3F8646B51B05D4BD00FA6C08 /* 002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002@2x.png"; sourceTree = "<group>"; };
+		3F8646B61B05D4BD00FA6C08 /* 003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003@2x.png"; sourceTree = "<group>"; };
+		3F8646B71B05D4BD00FA6C08 /* 004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004@2x.png"; sourceTree = "<group>"; };
+		3F8646B81B05D4BD00FA6C08 /* 005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005@2x.png"; sourceTree = "<group>"; };
+		3F8646B91B05D4BD00FA6C08 /* 006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006@2x.png"; sourceTree = "<group>"; };
+		3F8646BA1B05D4BD00FA6C08 /* 007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007@2x.png"; sourceTree = "<group>"; };
+		3F8646BB1B05D4BD00FA6C08 /* 008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008@2x.png"; sourceTree = "<group>"; };
+		3F8646BC1B05D4BD00FA6C08 /* 009@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009@2x.png"; sourceTree = "<group>"; };
+		3F8646BD1B05D4BD00FA6C08 /* 010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010@2x.png"; sourceTree = "<group>"; };
+		3F8646BE1B05D4BD00FA6C08 /* 011@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011@2x.png"; sourceTree = "<group>"; };
+		3F8646BF1B05D4BD00FA6C08 /* 012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012@2x.png"; sourceTree = "<group>"; };
+		3F8646C01B05D4BD00FA6C08 /* 013@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013@2x.png"; sourceTree = "<group>"; };
+		3F8646C11B05D4BD00FA6C08 /* 014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014@2x.png"; sourceTree = "<group>"; };
+		3F8646C21B05D4BD00FA6C08 /* 015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015@2x.png"; sourceTree = "<group>"; };
+		3F8646C31B05D4BD00FA6C08 /* 016@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016@2x.png"; sourceTree = "<group>"; };
+		3F8647821B05D69200FA6C08 /* btn_tag_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_tag_delete.png; sourceTree = "<group>"; };
+		3F8647841B06004C00FA6C08 /* Mole02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole02.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8646211B05D1AB00FA6C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86462A1B05D1AB00FA6C08 /* CoreGraphics.framework in Frameworks */,
+				3F86462C1B05D1AB00FA6C08 /* UIKit.framework in Frameworks */,
+				3F8646281B05D1AB00FA6C08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86463C1B05D1AB00FA6C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8646411B05D1AB00FA6C08 /* XCTest.framework in Frameworks */,
+				3F8646431B05D1AB00FA6C08 /* UIKit.framework in Frameworks */,
+				3F8646421B05D1AB00FA6C08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F86461B1B05D1AB00FA6C08 = {
+			isa = PBXGroup;
+			children = (
+				3F86462D1B05D1AB00FA6C08 /* 抖动界面删除 */,
+				3F8646461B05D1AB00FA6C08 /* 抖动界面删除Tests */,
+				3F8646261B05D1AB00FA6C08 /* Frameworks */,
+				3F8646251B05D1AB00FA6C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8646251B05D1AB00FA6C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8646241B05D1AB00FA6C08 /* 抖动界面删除.app */,
+				3F86463F1B05D1AB00FA6C08 /* 抖动界面删除Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8646261B05D1AB00FA6C08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8646271B05D1AB00FA6C08 /* Foundation.framework */,
+				3F8646291B05D1AB00FA6C08 /* CoreGraphics.framework */,
+				3F86462B1B05D1AB00FA6C08 /* UIKit.framework */,
+				3F8646401B05D1AB00FA6C08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F86462D1B05D1AB00FA6C08 /* 抖动界面删除 */ = {
+			isa = PBXGroup;
+			children = (
+				3F29A2EC1B07047B00555061 /* Mole04.png */,
+				3F8647841B06004C00FA6C08 /* Mole02.png */,
+				3F8647821B05D69200FA6C08 /* btn_tag_delete.png */,
+				3F8646B31B05D4BD00FA6C08 /* QQ系统表情 */,
+				3F8646361B05D1AB00FA6C08 /* AppDelegate.h */,
+				3F8646371B05D1AB00FA6C08 /* AppDelegate.m */,
+				3F8646391B05D1AB00FA6C08 /* Images.xcassets */,
+				3F86462E1B05D1AB00FA6C08 /* Supporting Files */,
+			);
+			path = "抖动界面删除";
+			sourceTree = "<group>";
+		};
+		3F86462E1B05D1AB00FA6C08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F86462F1B05D1AB00FA6C08 /* 抖动界面删除-Info.plist */,
+				3F8646301B05D1AB00FA6C08 /* InfoPlist.strings */,
+				3F8646331B05D1AB00FA6C08 /* main.m */,
+				3F8646351B05D1AB00FA6C08 /* 抖动界面删除-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8646461B05D1AB00FA6C08 /* 抖动界面删除Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F86464C1B05D1AB00FA6C08 /* ______Tests.m */,
+				3F8646471B05D1AB00FA6C08 /* Supporting Files */,
+			);
+			path = "抖动界面删除Tests";
+			sourceTree = "<group>";
+		};
+		3F8646471B05D1AB00FA6C08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8646481B05D1AB00FA6C08 /* 抖动界面删除Tests-Info.plist */,
+				3F8646491B05D1AB00FA6C08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8646B31B05D4BD00FA6C08 /* QQ系统表情 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8646B41B05D4BD00FA6C08 /* 001@2x.png */,
+				3F8646B51B05D4BD00FA6C08 /* 002@2x.png */,
+				3F8646B61B05D4BD00FA6C08 /* 003@2x.png */,
+				3F8646B71B05D4BD00FA6C08 /* 004@2x.png */,
+				3F8646B81B05D4BD00FA6C08 /* 005@2x.png */,
+				3F8646B91B05D4BD00FA6C08 /* 006@2x.png */,
+				3F8646BA1B05D4BD00FA6C08 /* 007@2x.png */,
+				3F8646BB1B05D4BD00FA6C08 /* 008@2x.png */,
+				3F8646BC1B05D4BD00FA6C08 /* 009@2x.png */,
+				3F8646BD1B05D4BD00FA6C08 /* 010@2x.png */,
+				3F8646BE1B05D4BD00FA6C08 /* 011@2x.png */,
+				3F8646BF1B05D4BD00FA6C08 /* 012@2x.png */,
+				3F8646C01B05D4BD00FA6C08 /* 013@2x.png */,
+				3F8646C11B05D4BD00FA6C08 /* 014@2x.png */,
+				3F8646C21B05D4BD00FA6C08 /* 015@2x.png */,
+				3F8646C31B05D4BD00FA6C08 /* 016@2x.png */,
+			);
+			path = "QQ系统表情";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8646231B05D1AB00FA6C08 /* 抖动界面删除 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8646501B05D1AB00FA6C08 /* Build configuration list for PBXNativeTarget "抖动界面删除" */;
+			buildPhases = (
+				3F8646201B05D1AB00FA6C08 /* Sources */,
+				3F8646211B05D1AB00FA6C08 /* Frameworks */,
+				3F8646221B05D1AB00FA6C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抖动界面删除";
+			productName = "抖动界面删除";
+			productReference = 3F8646241B05D1AB00FA6C08 /* 抖动界面删除.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F86463E1B05D1AB00FA6C08 /* 抖动界面删除Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8646531B05D1AB00FA6C08 /* Build configuration list for PBXNativeTarget "抖动界面删除Tests" */;
+			buildPhases = (
+				3F86463B1B05D1AB00FA6C08 /* Sources */,
+				3F86463C1B05D1AB00FA6C08 /* Frameworks */,
+				3F86463D1B05D1AB00FA6C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8646451B05D1AB00FA6C08 /* PBXTargetDependency */,
+			);
+			name = "抖动界面删除Tests";
+			productName = "抖动界面删除Tests";
+			productReference = 3F86463F1B05D1AB00FA6C08 /* 抖动界面删除Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F86461C1B05D1AB00FA6C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F86463E1B05D1AB00FA6C08 = {
+						TestTargetID = 3F8646231B05D1AB00FA6C08;
+					};
+				};
+			};
+			buildConfigurationList = 3F86461F1B05D1AB00FA6C08 /* Build configuration list for PBXProject "抖动界面删除" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F86461B1B05D1AB00FA6C08;
+			productRefGroup = 3F8646251B05D1AB00FA6C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8646231B05D1AB00FA6C08 /* 抖动界面删除 */,
+				3F86463E1B05D1AB00FA6C08 /* 抖动界面删除Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8646221B05D1AB00FA6C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8647851B06004C00FA6C08 /* Mole02.png in Resources */,
+				3F8647231B05D4BD00FA6C08 /* 009@2x.png in Resources */,
+				3F8647211B05D4BD00FA6C08 /* 007@2x.png in Resources */,
+				3F8647261B05D4BD00FA6C08 /* 012@2x.png in Resources */,
+				3F8646321B05D1AB00FA6C08 /* InfoPlist.strings in Resources */,
+				3F86471F1B05D4BD00FA6C08 /* 005@2x.png in Resources */,
+				3F86471E1B05D4BD00FA6C08 /* 004@2x.png in Resources */,
+				3F86471C1B05D4BD00FA6C08 /* 002@2x.png in Resources */,
+				3F86471B1B05D4BD00FA6C08 /* 001@2x.png in Resources */,
+				3F8647291B05D4BD00FA6C08 /* 015@2x.png in Resources */,
+				3F8647831B05D69200FA6C08 /* btn_tag_delete.png in Resources */,
+				3F8647201B05D4BD00FA6C08 /* 006@2x.png in Resources */,
+				3F8647241B05D4BD00FA6C08 /* 010@2x.png in Resources */,
+				3F29A2ED1B07047B00555061 /* Mole04.png in Resources */,
+				3F8647251B05D4BD00FA6C08 /* 011@2x.png in Resources */,
+				3F8647271B05D4BD00FA6C08 /* 013@2x.png in Resources */,
+				3F8647281B05D4BD00FA6C08 /* 014@2x.png in Resources */,
+				3F86472A1B05D4BD00FA6C08 /* 016@2x.png in Resources */,
+				3F8647221B05D4BD00FA6C08 /* 008@2x.png in Resources */,
+				3F86471D1B05D4BD00FA6C08 /* 003@2x.png in Resources */,
+				3F86463A1B05D1AB00FA6C08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86463D1B05D1AB00FA6C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86464B1B05D1AB00FA6C08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8646201B05D1AB00FA6C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8646381B05D1AB00FA6C08 /* AppDelegate.m in Sources */,
+				3F8646341B05D1AB00FA6C08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86463B1B05D1AB00FA6C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86464D1B05D1AB00FA6C08 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8646451B05D1AB00FA6C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8646231B05D1AB00FA6C08 /* 抖动界面删除 */;
+			targetProxy = 3F8646441B05D1AB00FA6C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8646301B05D1AB00FA6C08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8646311B05D1AB00FA6C08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F8646491B05D1AB00FA6C08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86464A1B05D1AB00FA6C08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F86464E1B05D1AB00FA6C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F86464F1B05D1AB00FA6C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8646511B05D1AB00FA6C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "抖动界面删除/抖动界面删除-Prefix.pch";
+				INFOPLIST_FILE = "抖动界面删除/抖动界面删除-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F8646521B05D1AB00FA6C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "抖动界面删除/抖动界面删除-Prefix.pch";
+				INFOPLIST_FILE = "抖动界面删除/抖动界面删除-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F8646541B05D1AB00FA6C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/抖动界面删除.app/抖动界面删除";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "抖动界面删除/抖动界面删除-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "抖动界面删除Tests/抖动界面删除Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F8646551B05D1AB00FA6C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/抖动界面删除.app/抖动界面删除";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "抖动界面删除/抖动界面删除-Prefix.pch";
+				INFOPLIST_FILE = "抖动界面删除Tests/抖动界面删除Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F86461F1B05D1AB00FA6C08 /* Build configuration list for PBXProject "抖动界面删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86464E1B05D1AB00FA6C08 /* Debug */,
+				3F86464F1B05D1AB00FA6C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8646501B05D1AB00FA6C08 /* Build configuration list for PBXNativeTarget "抖动界面删除" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8646511B05D1AB00FA6C08 /* Debug */,
+				3F8646521B05D1AB00FA6C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8646531B05D1AB00FA6C08 /* Build configuration list for PBXNativeTarget "抖动界面删除Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8646541B05D1AB00FA6C08 /* Debug */,
+				3F8646551B05D1AB00FA6C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F86461C1B05D1AB00FA6C08 /* Project object */;
+}
