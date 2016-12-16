@@ -1,0 +1,201 @@
+
+{
+    "name": "图书阅读问卷调查" ,
+    "description": "亲，我们的图书对您有用是我们存在的基础，您的帮助可以让我们更有用。祝您发展顺利，财源广进。感谢您百忙中抽空填写这份调查表，如果您留下联系方式，我们将抽取16名幸运者，参考您第1题选择的最感兴趣图书类别，赠送该类别的3本系列图书大礼包，价值过百元——管理类：《无边界组织》《卓越领导者》《高管继任》；创业创新类：《伏牛传》《裂变式创业》《价值革命》；营销类：《社群营销》《社群商业》《社群经济》；投资类：《艾略特波浪理论》《跟庄(实战精华版)》《跟庄(高手提升版)》" ,
+
+    "questions": [
+
+    {
+        "id": 1234,
+        "type": "多选",
+        "maxAnswerAllowed": -1,
+        "question": "您平时对哪类图书最感兴趣？（可多选）",
+
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "管理类",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "创业创新类",
+                "optionValue": "2"
+            },
+            {
+                "optionOrder": 3,
+                "optionName": "营销类",
+                "optionValue": "3"
+            },
+            {
+                "optionOrder": 4,
+                "optionName": "投资类",
+                "optionValue": "4"
+            }
+        ]
+    },
+
+    {
+        "id": 1235,
+        "type": "单选",
+        "maxAnswerAllowed": 1,
+        "question": "如果您在创业初期，倾向于：",
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "单干",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "合伙",
+                "optionValue": "2"
+            }
+        ]
+    },
+
+    {
+        "id": 1236,
+        "type": "多选",
+        "maxAnswerAllowed": 2,
+        "question": "您认为创业初期遇到的最大问题是：（最多选2项）",
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "缺钱",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "缺技术",
+                "optionValue": "2"
+            },
+            {
+                "optionOrder": 3,
+                "optionName": "缺产品",
+                "optionValue": "3"
+            },
+            {
+                "optionOrder": 4,
+                "optionName": "缺品牌",
+                "optionValue": "4"
+            },
+            {
+                "optionOrder": 5,
+                "optionName": "缺人才",
+                "optionValue": "5"
+            },
+            {
+                "optionOrder": 6,
+                "optionName": "其他"
+            }
+        ]
+    },
+
+    {
+        "id": 1237,
+        "type": "多选",
+        "maxAnswerAllowed": -1,
+        "question": "您阅读创业图书的内容偏向于：",
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "实操干货类",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "思维观点类",
+                "optionValue": "2"
+            },
+            {
+                "optionOrder": 3,
+                "optionName": "流行趋势类",
+                "optionValue": "3"
+            },
+            {
+                "optionOrder": 4,
+                "optionName": "创业人物类",
+                "optionValue": "4"
+            }
+        ]
+    },
+
+    {
+        "id": 1238,
+        "type": "多选",
+        "maxAnswerAllowed": -1,
+        "question": "您阅读创业图书的目的是：",
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "兴趣爱好",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "工作需要",
+                "optionValue": "2"
+            },
+            {
+                "optionOrder": 3,
+                "optionName": "公司的读书要求",
+                "optionValue": "3"
+            },
+            {
+                "optionOrder": 4,
+                "optionName": "得知相关图书信息后偶尔看看",
+                "optionValue": "4"
+            }
+        ]
+    },
+
+    {
+        "id": 1239,
+        "type": "单选",
+        "maxAnswerAllowed": 1,
+        "question": "您所在的单位是：",
+        "answers": [
+            {
+                "optionOrder": 1,
+                "optionName": "政府机关",
+                "optionValue": "1"
+            },
+            {
+                "optionOrder": 2,
+                "optionName": "国企",
+                "optionValue": "2"
+            },
+            {
+                "optionOrder": 3,
+                "optionName": "私企/民营",
+                "optionValue": "3"
+            },
+            {
+                "optionOrder": 4,
+                "optionName": "金融机构/银行/券商/保险",
+                "optionValue": "4"
+            },
+            {
+                "optionOrder": 5,
+                "optionName": "其他"
+            }
+        ]
+    },
+
+    {
+        "id": 1240,
+        "type": "主观",
+        "maxAnswerAllowed": 1,
+        "question": "如果中奖，收书人的尊姓大名是："
+    },
+
+    {
+        "id": 1241,
+        "type": "主观",
+        "maxAnswerAllowed": 2,
+        "question": "您的补充意见是（可以写多行）："
+    }
+]
+}
+
